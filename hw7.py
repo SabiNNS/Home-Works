@@ -1,6 +1,6 @@
 import sqlite3
 
-connect = sqlite3.connect("library.db")
+connect = sqlite3.connect("books.db")
 cursor = connect.cursor()
 
 cursor.execute('''
